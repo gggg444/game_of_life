@@ -54,21 +54,6 @@ The application includes a health check, accessible at:
 http://localhost:8501/_stcore/health
 ```
 
-### Example Docker Commands:
-
-- **To stop the container**:
-
-    ```bash
-    docker ps
-    docker stop <container_id>
-    ```
-
-- **To rebuild the Docker image after making changes**:
-
-    ```bash
-    docker build -t game_of_life_app .
-    ```
-
 ## How to Run (without Docker)
 
 You can also run the application without Docker by installing the necessary dependencies manually.
