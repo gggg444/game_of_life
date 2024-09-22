@@ -24,7 +24,6 @@ First, clone the repository that contains the `Dockerfile` and application code:
 
 ```bash
 git clone https://github.com/gggg444/game_of_life.git
-cd game_of_life
 ```
 
 ### 2. Build the Docker Image
@@ -32,7 +31,6 @@ cd game_of_life
 Navigate to the `app` directory and build the Docker image from the `Dockerfile`:
 
 ```bash
-cd app
 docker build -t game_of_life_app .
 ```
 
